@@ -1,7 +1,57 @@
-{
-  width: 90%;
-  margin: auto;
-  padding-top: 100px;
+/* Title bar Styling */
+#heading {
   text-align: center;
-  background-color: lightgrey;
+  margin: auto;
+  width: 98%;
+  height: 150px;
+  font-size: 20px;
+  background-color: #f7f7f7;
+  border-radius: 5px 5px 0px 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: "Oswald", sans-serif;
+}
+
+#heading h1 {
+  color: #beacce;
+  font-family: "Oswald", sans-serif;
+}
+
+
+/* Menu/Nav Bar */
+
+#menubar {
+  height: 20%;
+  width: 98%;
+  font-size: 16px;
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 4px #333333;
+  background-color: #f0f0f0;
+  border-radius: 0px;
+  margin: auto;
+}
+
+#menubar ul {
+  height: 25px;
+  padding: 15px;
+  margin: 0px;
+}
+
+#menubar li {
+  display:inline;
+  padding: 80px;
+}
+
+#menubar a {
+  text-decoration: none;
+  color: #beacce;
+  padding: 8px 8px 8px 8px;
+}
+
+#menubar a:hover {
+  color:#f2f2bc;
+  background-color: #f2bcbc;
+  padding: 15px;
 }
