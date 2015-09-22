@@ -55,3 +55,16 @@
   background-color: #f2bcbc;
   padding: 15px;
 }
+
+/* image main bar */
+
+#cornell-pic {
+  width: 90%;
+  padding: 0% 5% 0% 5%;
+  margin: auto;
+  opacity: 10%;
+}
+
+#body {
+  background-image: url(images/chronicle_color.jpg);
+}
